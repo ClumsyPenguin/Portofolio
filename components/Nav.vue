@@ -1,19 +1,29 @@
 <template>
   <div>
-  <b-nav vertical class="w-25">
-    <b-nav-item active>Active</b-nav-item>
-    <b-nav-item>Link</b-nav-item>
-    <b-nav-item>Another Link</b-nav-item>
-  </b-nav>
-</div>
+    <b-button v-b-toggle.sidebar-1>☰</b-button>
+    <b-sidebar id="sidebar-1" bg-variant="dark" text-variant="light" backdrop shadow>
+      <b-navbar-nav>
+          <b-nav-item href="/">Home</b-nav-item>
+          <b-nav-item href="/projects">Projects</b-nav-item>
+          <b-nav-item href="/about">About</b-nav-item>
+          <b-nav-item href="/contact">Contact</b-nav-item>
+        </b-navbar-nav>
+    </b-sidebar>
+  </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style>
-
+a{
+  display: flex;
+  text-align: center;
+  color:white !important;
+  text-decoration: none;
+  margin: 10px;
+}
+button{
+  font-size: 50px !important; 
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border: none !important;
+}
 </style>
