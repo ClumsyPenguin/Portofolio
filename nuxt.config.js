@@ -29,13 +29,15 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/css/main.css'
+    '~/css/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '~/plugins/fontawesome.js',
   ],
   /*
   ** Auto import components
@@ -46,7 +48,13 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/fontawesome',
   ],
+  fontawesome: {
+    icons: {
+      solid: ['faBars'],
+    },
+  },
   /*
   ** Nuxt.js modules
   */
