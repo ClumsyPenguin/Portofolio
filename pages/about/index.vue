@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <div>    
+    <div>
+      <Nav>
+      </Nav>
+    </div>
     <h1>About</h1>
   </div>
 </template>

@@ -8,7 +8,6 @@
           <b-nav-item class="nav-link" href="/">Home</b-nav-item>
           <b-nav-item class="nav-link" href="/projects">Projects</b-nav-item>
           <b-nav-item class="nav-link" href="/about">About</b-nav-item>
-          <b-nav-item class="nav-link" href="/contact">Contact</b-nav-item>
         </b-navbar-nav>
     </b-sidebar>
   </div>
